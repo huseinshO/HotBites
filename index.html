@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Hot Bites — برغر وسندويشات بطعم لا يُنسى في أنصار، الشارع الرئيسي.">
+  <title>Hot Bites | Small Bites, Big Happiness</title>
+<link rel="stylesheet" href="css/offline-framework.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="top-strip">
+    <div class="container d-flex justify-content-between align-items-center flex-wrap gap-2">
+      <span><i class="bi bi-geo-alt-fill"></i> أنصار، الشارع الرئيسي</span>
+      <a href="tel:81746073"><i class="bi bi-telephone-fill"></i> 81 746 073</a>
+    </div>
+  </div>
+
+  <nav class="navbar navbar-expand-lg navbar-dark site-nav sticky-top">
+    <div class="container">
+      <a class="navbar-brand brand" href="#home" aria-label="Hot Bites الرئيسية">
+        <span class="brand-mark"><i class="bi bi-fire"></i></span>
+        <span>hot<span>bites</span><small>BURGERS • SANDWICHES • MORE</small></span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="فتح القائمة">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 align-items-lg-center">
+          <li class="nav-item"><a class="nav-link active" href="#home">الرئيسية</a></li>
+          <li class="nav-item"><a class="nav-link" href="#menu">المنيو</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">قصتنا</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">تواصل معنا</a></li>
+          <li class="nav-item me-lg-3"><a class="btn btn-yellow nav-cta" href="#menu">اكتشف المنيو <i class="bi bi-arrow-left"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-overlay"></div>
+      <div class="container hero-content">
+        <div class="row align-items-center min-vh-hero">
+          <div class="col-lg-7">
+            <span class="eyebrow"><span></span> الطعم اللي بيجمعنا</span>
+            <h1>لقمة صغيرة،<br><span>سعادة كبيرة.</span></h1>
+            <p class="hero-copy">من البرغر الغني بالنكهة للسندويشات اللي بتشهي… حضّر حالك لتجربة طعم بتستاهل.</p>
+            <div class="d-flex flex-wrap gap-3 hero-actions">
+              <a href="#menu" class="btn btn-yellow btn-lg">شوف المنيو <i class="bi bi-arrow-left"></i></a>
+              <a href="tel:81746073" class="btn btn-outline-light btn-lg"><i class="bi bi-telephone"></i> اتصل فينا</a>
+            </div>
+            <div class="hero-note"><i class="bi bi-check-circle-fill"></i> طعم طيب ومزاج أحلى</div>
+          </div>
+        </div>
+      </div>
+      <div class="hero-badge"><span>HOT</span><strong>BITES</strong><small>GOOD FOOD<br>GOOD MOOD</small></div>
+    </section>
+
+    <section class="quick-features">
+      <div class="container">
+        <div class="row g-3">
+          <div class="col-4"><div class="feature"><i class="bi bi-fire"></i><span>نكهة بتفرق</span></div></div>
+          <div class="col-4"><div class="feature"><i class="bi bi-egg-fried"></i><span>خيارات بتشهي</span></div></div>
+          <div class="col-4"><div class="feature"><i class="bi bi-emoji-smile"></i><span>مزاج أحلى</span></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="menu-section section-pad" id="menu">
+      <div class="container">
+        <div class="section-heading text-center">
+          <span class="eyebrow dark-eyebrow">اختار اللي على مزاجك</span>
+          <h2>منيو <span>Hot Bites</span></h2>
+          <p>كل لقمة إلها حكاية… شو رح تختار اليوم؟</p>
+        </div>
+        <div class="menu-filters" role="group" aria-label="فلترة أصناف المنيو">
+          <button class="filter-btn active" data-filter="all">كل الأصناف</button>
+          <button class="filter-btn" data-filter="burger">برغر</button>
+          <button class="filter-btn" data-filter="sandwich">سندويشات</button>
+          <button class="filter-btn" data-filter="other">أصناف أخرى</button>
+        </div>
+
+        <div class="row g-4 menu-grid">
+          <div class="col-sm-6 col-lg-4 menu-item" data-category="burger">
+            <article class="food-card">
+              <div class="food-image"><img src="img/lebburger.avif" alt="برغر لبنانية" loading="lazy"><span class="food-tag">كلاسيك</span></div>
+              <div class="food-info"><div class="food-title-row"><h3>برغر لبنانية</h3><span class="price">350,000 ل.ل</span></div><p>برغر، بطاطا، كاتشب، سلطة ملفوف وصوص كوكتيل.</p><button class="details-btn" type="button" data-name="برغر لبنانية" data-description="برغر، بطاطا، كاتشب، سلطة ملفوف وصوص كوكتيل." data-price="250,000 ل.ل">تفاصيل الصنف <i class="bi bi-arrow-left"></i></button></div>
+            </article>
+          </div>
+          <div class="col-sm-6 col-lg-4 menu-item" data-category="burger">
+            <article class="food-card">
+              <div class="food-image"><img src="img/american-burger.avif" alt="أمريكان برغر" loading="lazy"><span class="food-tag">مفضّل</span></div>
+              <div class="food-info"><div class="food-title-row"><h3>أمريكان برغر</h3><span class="price">350,000 ل.ل</span></div><p>برغر، مايونيز، كاتشب، خردل، صوص كوكتيل، خس وذرة.</p><button class="details-btn" type="button" data-name="أمريكان برغر" data-description="برغر، مايونيز، كاتشب، خردل، صوص كوكتيل، خس وذرة." data-price="250,000 ل.ل">تفاصيل الصنف <i class="bi bi-arrow-left"></i></button></div>
+            </article>
+          </div>
+          <div class="col-sm-6 col-lg-4 menu-item" data-category="burger">
+            <article class="food-card">
+              <div class="food-image"><img src="img/burger2.png" alt="تشيز برغر" loading="lazy"><span class="food-tag">جبنة إضافية</span></div>
+              <div class="food-info"><div class="food-title-row"><h3>تشيز برغر</h3><span class="price">400,000 ل.ل</span></div><p>برغر، بطاطا، جبنة، صوص كوكتيل، سلطة ملفوف وخردل.</p><button class="details-btn" type="button" data-name="تشيز برغر" data-description="برغر، بطاطا، جبنة، صوص كوكتيل، سلطة ملفوف وخردل." data-price="400,000 ل.ل">تفاصيل الصنف <i class="bi bi-arrow-left"></i></button></div>
+            </article>
+          </div>
+          <div class="col-sm-6 col-lg-4 menu-item" data-category="other">
+            <article class="food-card">
+              <div class="food-image"><img src="img/hot-dog.png" alt="هوت دوغ" loading="lazy"><span class="food-tag">سناك</span></div>
+              <div class="food-info"><div class="food-title-row"><h3>هوت دوغ</h3><span class="price">300,000 ل.ل</span></div><p>هوت دوغ، باربيكيو، كاتشب، خردل، مايونيز وخس.</p><button class="details-btn" type="button" data-name="هوت دوغ" data-description="هوت دوغ، باربيكيو، كاتشب، خردل، مايونيز وخس." data-price="200,000 ل.ل">تفاصيل الصنف <i class="bi bi-arrow-left"></i></button></div>
+            </article>
+          </div>
+          <div class="col-sm-6 col-lg-4 menu-item" data-category="other">
+            <article class="food-card">
+              <div class="food-image"><img src="img/chicken-breast.png" alt="تشيكن برست" loading="lazy"><span class="food-tag">دجاج</span></div>
+              <div class="food-info"><div class="food-title-row"><h3>تشيكن برست</h3><span class="price">350,000 ل.ل</span></div><p>دجاج، خس، كاتشب， مايونيز، ذرة وتندورة.</p><button class="details-btn" type="button" data-name="تشيكن برست" data-description="دجاج، خس، كاتشب， مايونيز， ذرة وتندورة." data-price="350,000 ل.ل">تفاصيل الصنف <i class="bi bi-arrow-left"></i></button></div>
+            </article>
+          </div>
+          <div class="col-sm-6 col-lg-4 menu-item" data-category="sandwich">
+            <article class="food-card">
+              <div class="food-image"><img src="img/chicken-breast.avif" alt="تشيكن باربيكيو" loading="lazy"><span class="food-tag">باربيكيو</span></div>
+              <div class="food-info"><div class="food-title-row"><h3>تشيكن باربيكيو</h3><span class="price">350,000 ل.ل</span></div><p>دجاج، كاتشب， مايونيز， باربيكيو، مسترد وخس.</p><button class="details-btn" type="button" data-name="تشيكن باربيكيو" data-description="دجاج، كاتشب， مايونيز， باربيكيو، مسترد وخس." data-price="250,000 ل.ل">تفاصيل الصنف <i class="bi bi-arrow-left"></i></button></div>
+            </article>
+          </div>
+          <div class="col-sm-6 col-lg-4 menu-item" data-category="sandwich">
+            <article class="food-card">
+              <div class="food-image"><img src="img/chicken-honey-mustard.avif" alt="تشيكن هاني ماسترد" loading="lazy"><span class="food-tag">مميز</span></div>
+              <div class="food-info"><div class="food-title-row"><h3>تشيكن هاني ماسترد</h3><span class="price">350,000 ل.ل</span></div><p>دجاج، خس， كاتشب， مايونيز، صوص هاني ماسترد وذرة.</p><button class="details-btn" type="button" data-name="تشيكن هاني ماسترد" data-description="دجاج، خس， كاتشب， مايونيز، صوص هاني ماسترد وذرة." data-price="250,000 ل.ل">تفاصيل الصنف <i class="bi bi-arrow-left"></i></button></div>
+            </article>
+          </div>
+          <div class="col-sm-6 col-lg-4 menu-item" data-category="sandwich">
+            <article class="food-card">
+              <div class="food-image"><img src="img/cheese-sandwich.jpg" alt="جبن وقشقوان" loading="lazy"><span class="food-tag">جبنة</span></div>
+              <div class="food-info"><div class="food-title-row"><h3>حبش وقشقوان</h3><span class="price">300,000 ل.ل</span></div><p>جبنة، كاتشب， مايونيز وذرة.</p><button class="details-btn" type="button" data-name="جبن وقشقوان" data-description="جبنة، كاتشب， مايونيز وذرة." data-price="300,000 ل.ل">تفاصيل الصنف <i class="bi bi-arrow-left"></i></button></div>
+            </article>
+          </div>
+          <div class="col-sm-6 col-lg-4 menu-item" data-category="sandwich">
+            <article class="food-card">
+              <div class="food-image"><img src="img/pesto-halloumi-cheese.jpg" alt="بيستو وحلوم" loading="lazy"><span class="food-tag">بيستو</span></div>
+              <div class="food-info"><div class="food-title-row"><h3>بيستو وحلوم</h3><span class="price">300,000 ل.ل</span></div><p>حلوم، كاتشب， خردل， مايونيز， ذرة وصوص بيستو.</p><button class="details-btn" type="button" data-name="بيستو وحلوم" data-description="حلوم، كاتشب， خردل， مايونيز， ذرة وصوص بيستو." data-price="300,000 ل.ل">تفاصيل الصنف <i class="bi bi-arrow-left"></i></button></div>
+            </article>
+          </div>
+          <div class="col-sm-6 col-lg-4 menu-item" data-category="sandwich">
+            <article class="food-card">
+              <div class="food-image"><img src="img/pesto-halloumi.jpg" alt="بيستو حلوم وجبنة" loading="lazy"><span class="food-tag">مميز</span></div>
+              <div class="food-info"><div class="food-title-row"><h3>بيستو حلوم وحبش</h3><span class="price">300,000 ل.ل</span></div><p>حلوم، كاتشب， خردل， مايونيز， ذرة وصوص بيستو.</p><button class="details-btn" type="button" data-name="بيستو حلوم وجبنة" data-description="حلوم، كاتشب， خردل， مايونيز， ذرة وصوص بيستو." data-price="300,000 ل.ل">تفاصيل الصنف <i class="bi bi-arrow-left"></i></button></div>
+            </article>
+          </div>
+        </div>
+        <!-- <p class="price-note"><i class="bi bi-info-circle"></i> الأسعار المعروضة مبدئية وقد تحتاج إلى تأكيد من المطعم قبل النشر.</p> -->
+      </div>
+    </section>
+
+    <section class="about-section section-pad" id="about">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-6">
+            <div class="about-photo"><img src="img/american-burger.avif" alt="برغر من Hot Bites" loading="lazy"><div class="photo-sticker"><i class="bi bi-heart-fill"></i><span>Made for<br>good moments</span></div></div>
+          </div>
+          <div class="col-lg-6 about-copy">
+            <span class="eyebrow dark-eyebrow">أهلاً وسهلاً فيك</span>
+            <h2>الأكل الطيب،<br><span>بيعمل فرق.</span></h2>
+            <p>في Hot Bites، منحب نجمع النكهة الطيبة مع الأوقات الحلوة. اختار برغرك المفضّل أو جرّب سندويش جديد، وخلي كل لقمة ترفع مزاجك.</p>
+            <a href="#contact" class="btn btn-dark-yellow">زورنا أو اتصل فينا <i class="bi bi-arrow-left"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section section-pad" id="contact">
+      <div class="container">
+        <div class="contact-panel">
+          <div class="contact-copy"><span class="eyebrow">نحنا ناطرينك</span><h2>جعان؟ خلّينا نغيّر مزاجك.</h2><p>مرق لعنا في أنصار أو اتصل فينا للاستفسار.</p></div>
+         
+<div class="contact-actions">
+
+    <!-- Call button -->
+    <a href="tel:+96181746073"
+       class="btn btn-yellow btn-lg">
+        <i class="bi bi-telephone-fill"></i>
+        81 746 073
+    </a>
+
+    <!-- WhatsApp button -->
+    <a href="https://wa.me/96181746073"
+       target="_blank"
+       rel="noopener noreferrer"
+       class="btn btn-whatsapp btn-lg">
+        <i class="bi bi-whatsapp"></i>
+        WhatsApp
+    </a>
+
+    <!-- Location button -->
+    <a href="https://www.google.com/maps/search/?api=1&query=Hot+Bites+Ansar+Main+Street+Lebanon"
+       target="_blank"
+       rel="noopener noreferrer"
+       class="btn btn-outline-light btn-lg">
+        <i class="bi bi-geo-alt-fill"></i>
+        موقعنا
+    </a>
+
+</div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+ 
+<footer class="site-footer">
+    <div class="container d-flex flex-column flex-md-row
+                justify-content-between align-items-center gap-3">
+
+        <a class="footer-brand" href="#home">
+            hot<span>bites</span>
+        </a>
+
+        <p>Small Bites, Big Happiness.</p>
+
+        <span>
+            &copy; <span id="year"></span>
+            Hot Bites. All rights reserved.
+        </span>
+
+        <div class="developer-credit">
+            Developed by
+            <a href="https://www.instagram.com/husein_sh0_/"
+               target="_blank"
+               rel="noopener noreferrer">
+                Hussein Shokor
+                <i class="bi bi-instagram"></i>
+            </a>
+        </div>
+
+    </div>
+</footer>
+
+
+
+  <div class="mobile-action-bar" aria-label="روابط سريعة">
+    <a class="mobile-menu-link" href="#menu"><i class="bi bi-grid"></i> شوف المنيو</a>
+    <a class="mobile-call-link" href="tel:81746073"><i class="bi bi-telephone-fill"></i> اتصل فينا</a>
+  </div>
+
+  <button class="back-to-top" id="backToTop" aria-label="العودة إلى الأعلى"><i class="bi bi-arrow-up"></i></button>
+
+  <div class="modal fade" id="foodModal" tabindex="-1" aria-labelledby="foodModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered"><div class="modal-content food-modal">
+      <div class="modal-header"><h5 class="modal-title" id="foodModalLabel">تفاصيل الصنف</h5><button type="button" class="btn-close ms-0" data-bs-dismiss="modal" aria-label="إغلاق"></button></div>
+      <div class="modal-body"><p id="modalDescription"></p><div class="modal-price" id="modalPrice"></div></div>
+      <div class="modal-footer"><a href="tel:81746073" class="btn btn-yellow"><i class="bi bi-telephone-fill"></i> استفسر عن الصنف</a></div>
+    </div></div>
+  </div>
+
+  <script src="js/offline-framework.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
